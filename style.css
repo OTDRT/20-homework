@@ -147,13 +147,34 @@ keyVisual
   display: flex;
   flex-wrap: wrap;
 }
-
-
-.gallery li img{
-  width: 370px;
-  margin-right:45px;
+.gallery li{
   margin-bottom: 20px;
 }
+.gallery li img{
+  width: 370px;
+  height: 280px;
+  margin-right: 45px;
+  overflow: hidden;
+
+}
 .gallery li:nth-child(3n) img{
-  margin-right: 0px;
+  margin-right: 0;
+}
+.gallery li:first-child img{
+  background: url(img/ga1.jpg) no-repeat center center /cover;
+}
+.gallery li:nth-child(2) img{
+  background: url(img/ga1.jpg) no-repeat center center /cover;
+}
+.gallery li:nth-child(3) img{
+  background: url(img/ga1.jpg) no-repeat center center /cover;
+}
+.gallery li:nth-child(4) img{
+  background: url(img/ga1.jpg) no-repeat center center /cover;
+}
+.gallery li:nth-child(5) img{
+  background: url(img/ga1.jpg) no-repeat center center /cover;
+}
+.gallery li:nth-child(6) img{
+  background: url(img/ga1.jpg) no-repeat center center /cover;
 }
