@@ -130,3 +130,30 @@ keyVisual
     background: transparent;
   }
 }
+/*================
+ギャラリーPickUp
+================*/
+.section-hdr {
+  width: 1000px;
+  margin: 40px auto 30px;
+  background: url(img/bg_line.png) repeat left bottom;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.gallery li img{
+  width: 370px;
+  margin-right:45px;
+  margin-bottom: 20px;
+}
+.gallery li:nth-child(3n) img{
+  margin-right: 0px;
+}
