@@ -146,35 +146,76 @@ keyVisual
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
-.gallery li{
+.gallery li {
+  margin-bottom: 20px;
+  width: 32%;
+  margin-right: 2%;
   margin-bottom: 20px;
 }
-.gallery li img{
-  width: 370px;
-  height: 280px;
-  margin-right: 45px;
+.gallery .image{
+  height: 250px;
   overflow: hidden;
-
+  background: no-repeat center /cover;
 }
-.gallery li:nth-child(3n) img{
+.gallery li:nth-child(3n){
   margin-right: 0;
 }
-.gallery li:first-child img{
-  background: url(img/ga1.jpg) no-repeat center center /cover;
+.gallery li:first-child .image{
+  background: url('img/ga1.jpg') no-repeat center center /cover;
 }
-.gallery li:nth-child(2) img{
-  background: url(img/ga1.jpg) no-repeat center center /cover;
+.gallery li:nth-child(2) .image{
+  background: url(img/ga2.jpg) no-repeat center center /cover;
 }
-.gallery li:nth-child(3) img{
-  background: url(img/ga1.jpg) no-repeat center center /cover;
+.gallery li:nth-child(3) .image{
+  background: url(img/ga3.jpg) no-repeat center center /cover;
 }
-.gallery li:nth-child(4) img{
-  background: url(img/ga1.jpg) no-repeat center center /cover;
+.gallery li:nth-child(4) .image{
+  background: url(img/ga4.jpg) no-repeat center center /cover;
 }
-.gallery li:nth-child(5) img{
-  background: url(img/ga1.jpg) no-repeat center center /cover;
+.gallery li:nth-child(5) .image{
+  background: url(img/ga5.jpg) no-repeat center center /cover;
 }
-.gallery li:nth-child(6) img{
-  background: url(img/ga1.jpg) no-repeat center center /cover;
+.gallery li:last-child .image{
+  background: url(img/ga6.jpg) no-repeat center center /cover;
+}
+.gallery li img{
+  display: none;
+}
+/*================
+ブログPickUp
+================*/
+.blog{
+  width: 100%;
+  display: flex;
+}
+.blog li{
+  width: 22%;
+  margin-right: 4%;
+  margin-bottom: 20px;
+}
+.blog li:last-child {
+  margin-right: 0px;
+}
+
+.blog .image{
+  height: 220px;
+  overflow: hidden;
+  background: no-repeat center /cover;
+}
+.blog li:first-child .image{
+  background-image: url("img/news1.jpg");
+}
+.blog li:nth-child(2) .image{
+  background-image: url("img/news2.jpg");
+}
+.blog li:nth-child(3) .image{
+  background-image: url("img/news3.jpg");
+}
+.blog li:last-child .image{
+  background-image: url("img/news4.jpg");
+}
+.blog li img{
+display: none;
 }
