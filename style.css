@@ -24,3 +24,70 @@ common
   display: block;
   clear: both;
 }
+/*================
+hdr
+================*/
+.hdr-top {
+  padding: 10px 0 13px;
+  background: url(img/bg_line.png) repeat left bottom;
+  text-align: right;
+  color: #959595;
+}
+.hdr-top a {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #ffff69;
+  color: #777;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hdr-main {
+  padding: 30px 0;
+  float: left;
+}
+
+.logo {
+}
+
+.logo img {
+  width: 300px;
+}
+
+.hdr-main span {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #555;
+  display: block;
+  margin-top: 12px;
+  font-weight: normal;
+}
+/*================
+nav
+================*/
+.nav {
+}
+
+.nav ul {
+  display: flex;
+  float: right;
+}
+
+.nav li {
+  width: 100px;
+  float: left;
+  margin-left: 14px;
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav img {
+  width: 100%;
+}
+.nav span {
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+  color: #555;
+  tdn
+}
