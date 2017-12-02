@@ -219,3 +219,16 @@ keyVisual
 .blog li img{
 display: none;
 }
+
+
+.test{
+  line-height: 40px;
+  font-size: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid;
+  color: #eee;
+  background: #ddd;
+  border-radius: 4px;
+  position: relative;
+}
